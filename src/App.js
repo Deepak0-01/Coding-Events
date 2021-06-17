@@ -1,6 +1,5 @@
 
 import './App.css';
-import BgImg from './assets/homebg1.jpg';
 import Events from './components/Events';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useEffect } from 'react';
@@ -16,7 +15,7 @@ function App() {
   })
   return (
     <div className="App" style={{  
-      background: `url(${BgImg})`,
+      background: "#032D6B",
       minHeight:"200vh",
       
       objectFit:"cover",

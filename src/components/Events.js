@@ -20,8 +20,6 @@ function Events() {
     const [events, setEvents] = useState([]);
     const [subcategory, setsubCategory] = useState("Upcoming");
     const [loading, setLoading] = useState(true);
-    const [childdata, setChilddata] = useState([]);
-    const [tags, setTags] = useState([]);
     const usertags = useSelector(selectUsertags);
     let eventbutton = useSelector(selectEventbutton);
     let tagurl;
@@ -53,11 +51,10 @@ function Events() {
 
          tagurl = usertags.toString();
 
-        console.log(tagurl);
 
          url = `https://api.codingninjas.com/api/v3/events?event_category=${eventbutton}&event_sub_category=${subcategory}&tag_list=${tagurl}&offset=2&page=1`;
 
-        console.log(url);
+     
         axios.get(url)
         .then(res=>setEvents(res.data.data.events))
         .then(setLoading(false))
@@ -88,7 +85,7 @@ function Events() {
     
 
   
-  console.log(eventbutton);
+ 
     
    
     return (

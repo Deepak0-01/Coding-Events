@@ -9,8 +9,6 @@ import './Upcoming.css'
 
 function UpcomingCard({
   card_tags,
-  cover_picture,
-  event_end_time,
   event_start_time,
   fees,
   mobile_cover_picture,
