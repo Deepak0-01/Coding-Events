@@ -182,7 +182,7 @@ function Events() {
 
 
 
-        )):<div className="events__notfound events__h1"><h1>No Events Found</h1></div>}
+        )):<div className="events__notfound events__h1"><h1 style={{overflow:"hidden"}}>No Events Found</h1></div>}
      
       
         

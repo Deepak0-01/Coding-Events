@@ -139,7 +139,7 @@ a:visited{
 
     display:flex;
     justify-content: center;
-   overflow-y:hidden;
+   overflow:hidden;
     align-items: center;
     color:rgb(32, 31, 31)
 

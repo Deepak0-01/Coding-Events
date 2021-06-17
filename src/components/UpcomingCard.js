@@ -35,7 +35,7 @@ console.log(subcategory);
         <Card className="card card__height" style={{ width: "97%", height:"700px",overflow:"hidden" }}>
 
     <div className="card__image card__height">
-  <Card.Img  style={{overflow:"hidden"}} className="card__image" variant="top" src={mobile_cover_picture}  />
+  <Card.Img  style={{overflow:"hidden"}} className="card__image" variant="top" src={mobile_cover_picture} alt="Event Img" />
 
    {subcategory==="Upcoming"?<div className="registration__details ">
 
