@@ -1,0 +1,258 @@
+.upcoming__card{
+
+    color:#000000;
+    width:50%;
+    margin-bottom:30px;
+    
+    
+}
+
+.card{
+
+  width: "100%";
+  height:"700px" ;
+  
+}
+
+.card__image{
+  position:relative;
+  overflow-y: hidden;
+}
+
+.card__desc{
+
+    display:flex;
+    justify-content: space-between;
+    width:80%;
+   
+}
+
+b{
+  color:  #757575;
+  font-weight: 400;
+}
+
+.card__desc--original{
+
+    height:75px;
+}
+
+.card__footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.events__displaytags{
+ 
+    display:flex;
+    flex-wrap: wrap;
+    min-height:30px;
+ 
+
+
+}
+
+.events__display__tags--container{
+    display:flex;
+    flex-wrap: nowrap;
+    width:100%;
+    justify-content: space-between;
+    background-color: black;
+  
+}
+
+.events__tags--item{
+     
+    display:flex;
+    width:fit-content;
+    height:25px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    color: #616161;
+    background: #eee;
+    border-radius: 3px;
+    padding: 4px 14px;
+    font-size: 12px;
+}
+
+.card__participants{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+  
+}
+
+.card__participants--user{
+    width:100%;
+    display:flex;
+}
+
+.user__avatar{
+    margin:2px;
+   height:4px;
+
+}
+
+.register__button{
+
+    margin-bottom:15px;
+    width:180px;
+    padding:4px;
+    background-color: #FA7328;
+    border:none;
+}
+
+.listgroup__desc{
+
+    height:10%;
+}
+
+.card__image{
+  position: relative;
+}
+
+.registration__details
+{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    height:30px;
+    width:fit-content;
+    padding:4px;
+    background-color: #FFFFFF;
+    position:absolute;
+   bottom:2px;
+    right:5px;
+    border-radius:4px;
+    font-size:14px;
+  
+    margin:auto 2px auto 2px;
+    overflow-y:hidden;
+    z-index:3;
+
+}
+.registration__details >p{
+
+    
+
+    margin-top:auto;
+    margin-bottom:auto;
+    margin-left:-60px;
+}
+
+.card__height{
+
+  padding:0px;
+}
+
+
+
+.blinking {
+    -webkit-animation: 1s blink ease infinite;
+    -moz-animation: 1s blink ease infinite;
+    -ms-animation: 1s blink ease infinite;
+    -o-animation: 1s blink ease infinite;
+    animation: 1s blink ease infinite;
+    
+  }
+  
+  @keyframes blink {
+    from, to {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  
+  @-moz-keyframes blink {
+    from, to {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes blink {
+    from, to {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  
+  @-ms-keyframes blink{
+    from, to {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  
+  @-o-keyframes blink {
+    from, to {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+
+
+  @media(max-width:900px)
+  {
+    .upcoming__card{
+      width:100%;
+      height:100%;
+      overflow-y:hidden;
+      padding:2px;
+   
+
+    }
+
+
+   
+
+    .card{
+      margin-left:auto;
+      margin-right:auto;
+      width:100%;
+    }
+  }
+
+  @media(max-width:1000px)
+  {
+    .register__button{
+
+      width:fit-content;
+    }
+
+    .users__avatar{
+      height:15px;
+      width:15px;
+    }
+
+ 
+  }
+
+  @media(max-width:1000px)
+  {
+    .register__button{
+
+      width:200px;
+    }
+
+    .users__avatar{
+      height:15px;
+      width:15px;
+    }
+
+ 
+  }

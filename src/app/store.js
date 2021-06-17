@@ -1,8 +1,12 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import usertagsReducer from '../features//usertagsSlice';
+import subbuttonSlice from '../features/subbuttonSlice';
+import eventbuttonSlice from '../features/eventbuttonSlice';
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+   usertags: usertagsReducer,
+   subbutton:subbuttonSlice,
+   eventbutton:eventbuttonSlice
   },
 });
